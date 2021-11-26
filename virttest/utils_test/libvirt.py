@@ -32,10 +32,11 @@ import shutil
 
 from aexpect import remote
 
+from avocado_utils import stacktrace
+
 from avocado.core import exceptions
 from avocado.utils import path as utils_path
 from avocado.utils import process
-from avocado.utils import stacktrace
 from avocado.utils import linux_modules
 from avocado.utils import distro
 from avocado.utils.astring import to_text

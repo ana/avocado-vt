@@ -6,9 +6,10 @@ import random
 import string
 import sys
 
+from avocado_utils.stacktrace import log_exc_info
+
 from avocado.core import exit_codes
 from avocado.utils.process import pid_exists
-from avocado.utils.stacktrace import log_exc_info
 
 from avocado.core.plugin_interfaces import JobPreTests as Pre
 from avocado.core.plugin_interfaces import JobPostTests as Post

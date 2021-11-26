@@ -19,8 +19,10 @@ import pickle
 import sys
 import traceback
 
+from avocado_utils import stacktrace
+
 from avocado.core import exceptions
-from avocado.utils import genio, stacktrace
+from avocado.utils import genio
 
 from virttest import asset, bootstrap
 from virttest import data_dir

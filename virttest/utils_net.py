@@ -22,10 +22,11 @@ import json
 import aexpect
 from aexpect import remote
 
+from avocado_utils import stacktrace
+
 from avocado.core import exceptions
 from avocado.utils import path as utils_path
 from avocado.utils import process
-from avocado.utils import stacktrace
 
 import six
 from six.moves import xrange

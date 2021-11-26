@@ -21,9 +21,10 @@ import os
 import sys
 import pipes
 
+from avocado_utils import stacktrace
+
 from avocado.core import exceptions
 from avocado.core import test
-from avocado.utils import stacktrace
 from avocado.utils import process
 
 from virttest import error_event
