@@ -1,6 +1,6 @@
 import platform
 
-from avocado.utils import cpu
+from afutils import cpu
 
 ARCH = platform.machine()
 

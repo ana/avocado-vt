@@ -10,9 +10,9 @@ import os
 import logging
 
 from avocado.core import exceptions
-from avocado.utils import process
-from avocado.utils import path
-from avocado.utils import linux_modules
+from afutils import process
+from afutils import path
+from afutils import linux_modules
 
 from . import build_helper
 from . import utils_misc

@@ -1,6 +1,6 @@
 import os
 
-from avocado.utils import path as utils_path
+from afutils import path as utils_path
 
 from . import data_dir
 from . import cartesian_config

@@ -12,8 +12,8 @@ to heavily stress a machine's memory.
 
 import os
 
-from avocado.utils import cpu as cpu_utils
-from avocado.utils import disk as disk_utils
+from afutils import cpu as cpu_utils
+from afutils import disk as disk_utils
 
 from virttest.staging import utils_memory
 

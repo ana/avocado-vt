@@ -25,10 +25,10 @@ import uuid
 import xml.etree.ElementTree as ET
 
 
-from avocado.utils import cpu as utils
-from avocado.utils.software_manager import manager
-from avocado.utils import process
-from avocado.utils import path
+from afutils import cpu as utils
+from afutils.software_manager import manager
+from afutils import process
+from afutils import path
 from avocado.core import exceptions
 from virttest import virsh
 from virttest import utils_misc

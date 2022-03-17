@@ -4,7 +4,7 @@ import re
 import shutil
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from . import utils_net
 

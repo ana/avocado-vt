@@ -8,9 +8,9 @@ import os
 import re
 from virttest import data_dir
 
-from avocado.utils import process
-from avocado.utils import path
-from avocado.utils import astring
+from afutils import process
+from afutils import path
+from afutils import astring
 
 
 try:

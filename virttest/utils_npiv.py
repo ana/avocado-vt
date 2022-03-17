@@ -4,7 +4,7 @@ import logging
 from tempfile import mktemp
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import virsh
 from virttest import utils_misc

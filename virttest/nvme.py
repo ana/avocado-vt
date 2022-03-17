@@ -9,7 +9,7 @@ Available functions:
 """
 import re
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_misc
 

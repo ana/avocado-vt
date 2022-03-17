@@ -12,8 +12,8 @@ import stat
 import pkg_resources
 
 from avocado.core import data_dir
-from avocado.utils import distro
-from avocado.utils import path as utils_path
+from afutils import distro
+from afutils import path as utils_path
 
 from virttest.compat import get_settings_value
 

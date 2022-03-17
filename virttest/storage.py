@@ -16,7 +16,7 @@ import collections
 import json
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import storage_ssh
 from virttest import nbd

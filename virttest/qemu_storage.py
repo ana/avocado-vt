@@ -14,7 +14,7 @@ import six
 import string
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_misc
 from virttest import virt_vm

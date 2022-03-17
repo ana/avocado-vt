@@ -10,9 +10,9 @@ try:
 except ImportError:
     import ConfigParser
 
-from avocado.utils import astring
-from avocado.utils import path
-from avocado.utils import download
+from afutils import astring
+from afutils import path
+from afutils import download
 
 from six.moves import urllib
 

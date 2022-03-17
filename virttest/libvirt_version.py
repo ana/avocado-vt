@@ -6,9 +6,9 @@ import re
 import logging
 
 from avocado.core import exceptions
-from avocado.utils import path
-from avocado.utils import process
-from avocado.utils.astring import to_text
+from afutils import path
+from afutils import process
+from afutils.astring import to_text
 
 
 LOG = logging.getLogger('avocado.' + __name__)

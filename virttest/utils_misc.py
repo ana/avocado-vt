@@ -44,34 +44,34 @@ except NameError:
 from aexpect.utils.genio import _open_log_files
 
 from avocado.core import exceptions
-from avocado.utils import distro
-from avocado.utils import git
-from avocado.utils import path as utils_path
-from avocado.utils import process
-from avocado.utils import genio
-from avocado.utils import aurl
-from avocado.utils import download
-from avocado.utils import linux_modules
-from avocado.utils import memory
-from avocado.utils.astring import string_safe_encode
-from avocado.utils.astring import to_text
+from afutils import distro
+from afutils import git
+from afutils import path as utils_path
+from afutils import process
+from afutils import genio
+from afutils import aurl
+from afutils import download
+from afutils import linux_modules
+from afutils import memory
+from afutils.astring import string_safe_encode
+from afutils.astring import to_text
 # Symlink avocado implementation of process functions
-from avocado.utils.process import CmdResult
-from avocado.utils.process import pid_exists  # pylint: disable=W0611
-from avocado.utils.process import safe_kill   # pylint: disable=W0611
-from avocado.utils.process import kill_process_tree as _kill_process_tree
-from avocado.utils.process import kill_process_by_pattern  # pylint: disable=W0611
-from avocado.utils.process import process_in_ptree_is_defunct as process_or_children_is_defunct  # pylint: disable=W0611
+from afutils.process import CmdResult
+from afutils.process import pid_exists  # pylint: disable=W0611
+from afutils.process import safe_kill   # pylint: disable=W0611
+from afutils.process import kill_process_tree as _kill_process_tree
+from afutils.process import kill_process_by_pattern  # pylint: disable=W0611
+from afutils.process import process_in_ptree_is_defunct as process_or_children_is_defunct  # pylint: disable=W0611
 # Symlink avocado implementation of port-related functions
 
 try:
-    from avocado.utils.network.ports import is_port_free  # pylint: disable=W0611
-    from avocado.utils.network.ports import find_free_port  # pylint: disable=W0611
-    from avocado.utils.network.ports import find_free_ports  # pylint: disable=W0611
+    from afutils.network.ports import is_port_free  # pylint: disable=W0611
+    from afutils.network.ports import find_free_port  # pylint: disable=W0611
+    from afutils.network.ports import find_free_ports  # pylint: disable=W0611
 except ImportError:
-    from avocado.utils.network import is_port_free  # pylint: disable=W0611
-    from avocado.utils.network import find_free_port  # pylint: disable=W0611
-    from avocado.utils.network import find_free_ports  # pylint: disable=W0611
+    from afutils.network import is_port_free  # pylint: disable=W0611
+    from afutils.network import find_free_port  # pylint: disable=W0611
+    from afutils.network import find_free_ports  # pylint: disable=W0611
 
 from virttest import data_dir
 from virttest import error_context
@@ -354,7 +354,7 @@ def find_command(cmd):
     :raise: ValueError in case the command was not found.
     """
     LOG.warning("Function utils_misc.find_command is deprecated. "
-                "Please use avocado.utils.path.find_command instead.")
+                "Please use afutils.path.find_command instead.")
     return utils_path.find_command(cmd)
 
 

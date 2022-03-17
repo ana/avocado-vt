@@ -8,7 +8,7 @@ try:
 except ImportError:
     import ConfigParser
 
-from avocado.utils import distro
+from afutils import distro
 
 LOG = logging.getLogger('avocado.' + __name__)
 

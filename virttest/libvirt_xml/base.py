@@ -1,7 +1,7 @@
 import logging
 import imp
 
-from avocado.utils import process
+from afutils import process
 
 from .. import propcan, xml_utils, virsh
 from ..libvirt_xml import xcepts

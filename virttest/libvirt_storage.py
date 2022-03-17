@@ -10,7 +10,7 @@ This exports:
 import re
 import logging
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import storage
 from virttest import virsh

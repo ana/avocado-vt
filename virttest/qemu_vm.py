@@ -23,10 +23,10 @@ import aexpect
 from aexpect import remote
 
 from avocado.core import exceptions
-from avocado.utils import process
-from avocado.utils import crypto
-from avocado.utils import linux_modules
-from avocado.utils.astring import to_text
+from afutils import process
+from afutils import crypto
+from afutils import linux_modules
+from afutils.astring import to_text
 
 import six
 from six.moves import xrange

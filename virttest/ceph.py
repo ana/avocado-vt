@@ -12,7 +12,7 @@ import logging
 import os
 import re
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_numeric
 from virttest import error_context

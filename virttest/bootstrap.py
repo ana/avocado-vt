@@ -6,12 +6,12 @@ import shutil
 import sys
 import re
 
-from avocado.utils import cpu
-from avocado.utils import distro
-from avocado.utils import genio
-from avocado.utils import linux_modules
-from avocado.utils import path as utils_path
-from avocado.utils import process
+from afutils import cpu
+from afutils import distro
+from afutils import genio
+from afutils import linux_modules
+from afutils import path as utils_path
+from afutils import process
 
 from . import data_dir
 from . import asset
@@ -330,8 +330,8 @@ def host_os_get_distro_name(options, detected):
 
     :param options: parsed command line arguments results
     :type options: :class:`argparse.Namespace`
-    :param detected: result of :class:`avocado.utils.distro.detect`
-    :type detected: :class:`avocado.utils.distro.LinuxDistro`
+    :param detected: result of :class:`afutils.distro.detect`
+    :type detected: :class:`afutils.distro.LinuxDistro`
     """
     if get_opt(options, 'vt_host_distro_name'):
         return get_opt(options, 'vt_host_distro_name')

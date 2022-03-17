@@ -5,9 +5,9 @@ import re
 import aexpect
 from aexpect import remote
 
-from avocado.utils import download
-from avocado.utils import aurl
-from avocado.utils import wait
+from afutils import download
+from afutils import aurl
+from afutils import wait
 
 from six.moves import xrange
 

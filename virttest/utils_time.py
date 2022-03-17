@@ -1,8 +1,8 @@
 import logging
 import re
 
-from avocado.utils import path
-from avocado.utils import process
+from afutils import path
+from afutils import process
 from avocado.core import exceptions
 
 from virttest import error_context

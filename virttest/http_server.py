@@ -12,7 +12,7 @@ except ImportError:
     from BaseHTTPServer import HTTPServer
     from SimpleHTTPServer import SimpleHTTPRequestHandler
 
-from avocado.utils.astring import to_text
+from afutils.astring import to_text
 
 
 LOG = logging.getLogger('avocado.' + __name__)

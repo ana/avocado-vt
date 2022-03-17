@@ -4,7 +4,7 @@ QEMU related utility functions.
 import re
 import json
 
-from avocado.utils import process
+from afutils import process
 
 QEMU_VERSION_RE = re.compile(r"QEMU (?:PC )?emulator version\s"
                              r"([0-9]+\.[0-9]+\.[0-9]+)"

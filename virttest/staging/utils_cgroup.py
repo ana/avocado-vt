@@ -17,8 +17,8 @@ import six
 from tempfile import mkdtemp
 
 from avocado.core import exceptions
-from avocado.utils.software_manager import manager
-from avocado.utils import process
+from afutils.software_manager import manager
+from afutils import process
 
 from . import service
 

@@ -8,8 +8,8 @@ import os
 import re
 
 import aexpect
-from avocado.utils import path
-from avocado.utils import process
+from afutils import path
+from afutils import process
 
 from . import propcan
 

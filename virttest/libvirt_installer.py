@@ -8,7 +8,7 @@ import os
 import platform
 import logging
 
-from avocado.utils import process
+from afutils import process
 from virttest import base_installer
 
 

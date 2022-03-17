@@ -1,6 +1,6 @@
 from virttest import error_context
 
-from avocado.utils import process
+from afutils import process
 
 
 @error_context.context_aware

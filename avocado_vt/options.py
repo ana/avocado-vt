@@ -19,7 +19,7 @@ Avocado VT plugin
 import logging
 import os
 
-from avocado.utils import path as utils_path
+from afutils import path as utils_path
 
 from virttest import cartesian_config
 from virttest import data_dir

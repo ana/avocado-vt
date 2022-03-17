@@ -1,7 +1,7 @@
 import logging
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import cpu
 from virttest import utils_package

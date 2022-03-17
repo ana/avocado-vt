@@ -2,7 +2,7 @@ import os
 import re
 import logging
 
-from avocado.utils import process
+from afutils import process
 
 
 LOG = logging.getLogger('avocado.' + __name__)

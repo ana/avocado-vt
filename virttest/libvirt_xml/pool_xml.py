@@ -6,7 +6,7 @@ import os
 import logging
 import tempfile
 
-from avocado.utils import process
+from afutils import process
 
 from .. import data_dir
 from .. import libvirt_storage

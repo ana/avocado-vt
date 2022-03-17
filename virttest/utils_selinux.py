@@ -6,8 +6,8 @@ import logging
 import re
 import os
 
-from avocado.utils import process
-from avocado.utils import distro
+from afutils import process
+from afutils import distro
 
 
 ubuntu = distro.detect().name == 'Ubuntu'

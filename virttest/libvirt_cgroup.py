@@ -7,7 +7,7 @@ import os
 import logging
 import re
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_disk
 from virttest import virsh

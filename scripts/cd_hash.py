@@ -10,7 +10,7 @@ import sys
 import logging
 import optparse
 
-from avocado.utils import crypto
+from afutils import crypto
 
 from logging_config import LoggingConfig
 

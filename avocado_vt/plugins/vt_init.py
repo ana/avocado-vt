@@ -3,7 +3,7 @@ import importlib
 from avocado.core import plugin_interfaces
 from avocado.core.loader import loader
 from avocado.core.settings import settings
-from avocado.utils import path as utils_path
+from afutils import path as utils_path
 
 from virttest.compat import (get_settings_value,
                              is_registering_settings_required)

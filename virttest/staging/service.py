@@ -21,7 +21,7 @@ import re
 import logging
 from tempfile import mktemp
 
-from avocado.utils import process
+from afutils import process
 
 
 _COMMAND_TABLE_DOC = """

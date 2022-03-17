@@ -3,9 +3,9 @@ import re
 import os
 import signal
 
-from avocado.utils import path
-from avocado.utils import process
-from avocado.utils import linux_modules
+from afutils import path
+from afutils import process
+from afutils import linux_modules
 
 from .versionable_class import VersionableClass, Manager, factory
 from . import utils_misc

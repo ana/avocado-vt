@@ -17,8 +17,8 @@ import logging
 import math
 import time
 
-from avocado.utils import process
-from avocado.utils import path
+from afutils import process
+from afutils import path
 
 from . import utils_misc
 

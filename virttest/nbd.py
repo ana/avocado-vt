@@ -4,7 +4,7 @@ import string
 from virttest import error_context
 from virttest import utils_misc
 
-from avocado.utils import process
+from afutils import process
 
 
 @error_context.context_aware

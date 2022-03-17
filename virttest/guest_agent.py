@@ -15,7 +15,7 @@ except ImportError:
     logging.getLogger('avocado.app').warning(
         "Could not import json module. virt agent functionality disabled.")
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import error_context
 from virttest.qemu_monitor import Monitor, MonitorError

@@ -4,7 +4,7 @@ import time
 import threading
 import logging
 
-from avocado.utils import cpu
+from afutils import cpu
 from avocado.core import exceptions
 
 from virttest import virsh

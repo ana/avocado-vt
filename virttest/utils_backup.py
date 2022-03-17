@@ -5,7 +5,7 @@ import filecmp
 
 import xml.etree.ElementTree as ET
 
-from avocado.utils import process
+from afutils import process
 from avocado.core import exceptions
 
 from virttest import utils_misc

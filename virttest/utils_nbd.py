@@ -14,7 +14,7 @@ import logging
 import os
 import shutil
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_config
 from virttest import utils_libvirtd

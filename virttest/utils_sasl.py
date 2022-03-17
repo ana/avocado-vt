@@ -8,8 +8,8 @@ import aexpect
 from aexpect import remote
 
 from avocado.core import exceptions
-from avocado.utils import path
-from avocado.utils import process
+from afutils import path
+from afutils import process
 
 from virttest import propcan
 from virttest import virsh

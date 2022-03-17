@@ -2,8 +2,8 @@
 Higher order classes for Libvirt Sandbox Service (lxc) service container testing
 """
 
-from avocado.utils import process
-from avocado.utils import service
+from afutils import process
+from afutils import service
 
 from . import lvsb_base
 from . import virsh

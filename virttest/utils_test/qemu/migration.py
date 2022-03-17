@@ -21,11 +21,11 @@ except ImportError:
 from aexpect import remote
 
 from avocado.core import exceptions
-from avocado.utils import crypto
-from avocado.utils import data_factory
-from avocado.utils import path as utils_path
-from avocado.utils import process
-from avocado.utils.data_structures import DataSize
+from afutils import crypto
+from afutils import data_factory
+from afutils import path as utils_path
+from afutils import process
+from afutils.data_structures import DataSize
 
 from virttest import data_dir
 from virttest import storage

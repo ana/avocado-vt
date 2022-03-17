@@ -15,7 +15,7 @@
 import sys
 import logging
 
-from avocado.utils import process
+from afutils import process
 from avocado.core.plugin_interfaces import CLICmd
 
 from virttest import bootstrap

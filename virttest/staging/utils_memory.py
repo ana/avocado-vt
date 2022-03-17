@@ -5,7 +5,7 @@ import logging
 import os
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import kernel_interface
 

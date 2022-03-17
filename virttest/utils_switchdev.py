@@ -6,7 +6,7 @@ Virtualization test - SwitchDev related utilities
 import os
 import logging
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_sriov
 

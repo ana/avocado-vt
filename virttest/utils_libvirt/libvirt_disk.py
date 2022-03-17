@@ -7,7 +7,7 @@ import os
 import re
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import libvirt_storage
 from virttest import remote as remote_old

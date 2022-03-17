@@ -9,12 +9,12 @@ try:
 except ImportError:
     import ConfigParser
 
-from avocado.utils import astring
-from avocado.utils import process
-from avocado.utils import genio
-from avocado.utils import crypto
-from avocado.utils import download
-from avocado.utils import git
+from afutils import astring
+from afutils import process
+from afutils import genio
+from afutils import crypto
+from afutils import download
+from afutils import git
 
 from six.moves import urllib
 from six import string_types

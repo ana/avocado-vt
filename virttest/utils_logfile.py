@@ -8,10 +8,10 @@ import os
 import time
 import threading
 
-from avocado.utils import aurl
-from avocado.utils import path as utils_path
+from afutils import aurl
+from afutils import path as utils_path
 from aexpect.utils.genio import _open_log_files
-from avocado.utils.astring import string_safe_encode
+from afutils.astring import string_safe_encode
 
 from virttest import data_dir
 

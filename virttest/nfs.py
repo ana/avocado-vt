@@ -6,10 +6,10 @@ import re
 import aexpect
 import logging
 
-from avocado.utils import path
-from avocado.utils import process
-from avocado.utils import distro
-from avocado.utils.astring import to_text
+from afutils import path
+from afutils import process
+from afutils import distro
+from afutils.astring import to_text
 from avocado.core import exceptions
 
 from virttest import utils_misc

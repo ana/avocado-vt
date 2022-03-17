@@ -8,7 +8,7 @@ Before this test please set your hostname to something meaningful.
 """
 import logging
 
-from avocado.utils import process
+from afutils import process
 
 
 LOG = logging.getLogger('avocado.vt.examples.hostname')

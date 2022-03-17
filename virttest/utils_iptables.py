@@ -5,7 +5,7 @@ import logging
 
 from aexpect import remote
 
-from avocado.utils import process
+from afutils import process
 from avocado.core import exceptions
 
 LOG = logging.getLogger('avocado.' + __name__)

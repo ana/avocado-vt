@@ -7,12 +7,12 @@ Virtualization test utility functions.
 import logging
 import re
 
-from avocado.utils import process
+from afutils import process
 
 LOG = logging.getLogger('avocado.' + __name__)
 
 
-# TODO: check function in avocado.utils after the next LTS
+# TODO: check function in afutils after the next LTS
 def check_dmesg_output(pattern, expect=True, session=None):
     """
     Check whether certain pattern exists in dmesg.

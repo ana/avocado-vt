@@ -14,7 +14,7 @@ __all__ = ("get_git_version", "get_version", "get_top_commit",
 
 import os
 
-from avocado.utils import process
+from afutils import process
 
 from virttest import data_dir
 

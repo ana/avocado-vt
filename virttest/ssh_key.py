@@ -4,8 +4,8 @@ import logging
 import aexpect
 from aexpect import remote
 
-from avocado.utils import process
-from avocado.utils import path
+from afutils import process
+from afutils import path
 
 from virttest import remote as remote_old
 

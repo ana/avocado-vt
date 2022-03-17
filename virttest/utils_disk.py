@@ -20,9 +20,9 @@ except ImportError:
 from functools import cmp_to_key
 
 from avocado.core import exceptions
-from avocado.utils import process
-from avocado.utils import wait
-from avocado.utils.service import SpecificServiceManager
+from afutils import process
+from afutils import wait
+from afutils.service import SpecificServiceManager
 
 from virttest import error_context
 from virttest import utils_numeric

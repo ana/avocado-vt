@@ -12,8 +12,8 @@ import re
 import socket
 import netaddr
 
-from avocado.utils import process
-from avocado.utils import path as utils_path
+from afutils import process
+from afutils import path as utils_path
 from avocado.core import exceptions
 
 from virttest import data_dir

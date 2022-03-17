@@ -6,8 +6,8 @@ import re
 import logging
 
 import aexpect
-from avocado.utils import process
-from avocado.utils import wait
+from afutils import process
+from afutils import wait
 from avocado.core import exceptions
 
 from virttest import libvirtd_decorator

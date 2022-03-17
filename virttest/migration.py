@@ -5,9 +5,9 @@ import logging
 import re
 import signal
 
-from avocado.utils import process
-from avocado.utils import path as utils_path
-from avocado.utils import distro
+from afutils import process
+from afutils import path as utils_path
+from afutils import distro
 from avocado.core import exceptions
 
 from virttest import libvirt_version

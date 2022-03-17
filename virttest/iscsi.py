@@ -13,10 +13,10 @@ import os
 import logging
 
 from avocado.core import exceptions
-from avocado.utils import data_factory
-from avocado.utils import process
-from avocado.utils import path
-from avocado.utils import distro
+from afutils import data_factory
+from afutils import process
+from afutils import path
+from afutils import distro
 
 from virttest import utils_selinux
 from virttest import utils_net

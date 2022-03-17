@@ -36,12 +36,12 @@ import aexpect
 from aexpect import remote
 
 from avocado.core import exceptions
-from avocado.utils import process
-from avocado.utils import aurl
-from avocado.utils import download
-from avocado.utils import crypto
-from avocado.utils import path
-from avocado.utils import archive
+from afutils import process
+from afutils import aurl
+from afutils import download
+from afutils import crypto
+from afutils import path
+from afutils import archive
 
 from six.moves import xrange
 
@@ -2231,7 +2231,7 @@ class Stress(object):
         :param url: download url
         :param destination: download destination
         """
-        from avocado.utils import git
+        from afutils import git
         destination = os.path.join(destination, self.base_name)
         git.get_repo(url, destination_dir=destination)
 

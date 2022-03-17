@@ -5,7 +5,7 @@ import sys
 import logging
 import shutil
 
-from avocado.utils import process
+from afutils import process
 
 
 # simple magic for using scripts within a source tree

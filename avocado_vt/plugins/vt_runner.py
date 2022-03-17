@@ -6,7 +6,7 @@ import traceback
 from avocado.core import exceptions, nrunner, teststatus
 from avocado.core.runners.utils import messages
 from avocado.core.test_id import TestID
-from avocado.utils import astring
+from afutils import astring
 
 from avocado_vt import test
 

@@ -16,11 +16,11 @@ except ImportError:
 from aexpect import remote
 
 from avocado.core import exceptions
-from avocado.utils import astring
-from avocado.utils import iso9660
-from avocado.utils import process
-from avocado.utils import crypto
-from avocado.utils import download
+from afutils import astring
+from afutils import iso9660
+from afutils import process
+from afutils import crypto
+from afutils import download
 
 from virttest import virt_vm
 from virttest import asset

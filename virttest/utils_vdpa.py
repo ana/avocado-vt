@@ -7,7 +7,7 @@ import logging
 import time
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import openvswitch
 from virttest import utils_misc

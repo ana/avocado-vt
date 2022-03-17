@@ -14,7 +14,7 @@ import aexpect
 from aexpect.remote import *
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import data_dir
 from virttest import utils_logfile

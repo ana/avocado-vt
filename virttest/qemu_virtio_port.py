@@ -17,7 +17,7 @@ import struct
 import aexpect
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from six.moves import xrange
 

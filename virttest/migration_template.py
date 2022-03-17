@@ -6,8 +6,8 @@ from enum import Enum
 
 from six import itervalues, iteritems, string_types
 
-from avocado.utils import distro
-from avocado.utils import path as utils_path
+from afutils import distro
+from afutils import path as utils_path
 
 from virttest import virsh, migration, remote
 from virttest import libvirt_version

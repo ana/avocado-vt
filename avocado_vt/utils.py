@@ -20,7 +20,7 @@ import sys
 import traceback
 
 from avocado.core import exceptions
-from avocado.utils import genio, stacktrace
+from afutils import genio, stacktrace
 
 from virttest import asset, bootstrap
 from virttest import data_dir

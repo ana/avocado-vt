@@ -19,7 +19,7 @@ import uuid
 
 # Avocado imports
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 import aexpect
 

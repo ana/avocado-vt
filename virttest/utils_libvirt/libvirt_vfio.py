@@ -6,7 +6,7 @@ Libvirt vfio related utilities.
 import logging
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 LOG = logging.getLogger('avocado.' + __name__)
 

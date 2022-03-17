@@ -77,7 +77,7 @@ import urllib
 import urlparse
 import MySQLdb
 try:
-    from avocado.utils import lv_utils
+    from afutils import lv_utils
 except ImportError:
     from virttest.staging import lv_utils
 import MySQLdb  # After common so that we check our site-packages first.

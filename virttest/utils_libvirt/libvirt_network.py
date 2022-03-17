@@ -7,7 +7,7 @@ import logging
 import ast
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from virttest import virsh
 from virttest import remote

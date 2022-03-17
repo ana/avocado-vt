@@ -5,10 +5,10 @@ import shutil
 import tarfile
 
 from avocado.core import exceptions
-from avocado.utils import download
-from avocado.utils import git
-from avocado.utils import path
-from avocado.utils import process
+from afutils import download
+from afutils import git
+from afutils import path
+from afutils import process
 
 from virttest import data_dir
 

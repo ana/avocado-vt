@@ -20,7 +20,7 @@ import os
 
 from avocado.core.loader import loader
 from avocado.core.plugin_interfaces import CLI
-from avocado.utils import path as utils_path
+from afutils import path as utils_path
 
 from virttest import data_dir, defaults, standalone_test
 from virttest.compat import get_settings_value, add_option

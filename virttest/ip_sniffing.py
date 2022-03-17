@@ -13,8 +13,8 @@ except ImportError:
 
 import aexpect
 from aexpect.remote import handle_prompts
-from avocado.utils import path as utils_path
-from avocado.utils import process
+from afutils import path as utils_path
+from afutils import process
 
 import six
 

@@ -31,8 +31,8 @@ import select
 import aexpect
 from aexpect import remote
 
-from avocado.utils import path
-from avocado.utils import process
+from afutils import path
+from afutils import process
 
 from virttest import propcan
 from virttest import utils_misc

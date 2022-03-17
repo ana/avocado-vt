@@ -1,7 +1,7 @@
 import re
 
 import aexpect
-from avocado.utils import process
+from afutils import process
 
 from virttest import utils_misc
 from virttest import error_context

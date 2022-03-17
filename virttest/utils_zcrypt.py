@@ -33,7 +33,7 @@ Example:
 from uuid import uuid1
 from os.path import join
 
-from avocado.utils import process
+from afutils import process
 from virttest.utils_misc import cmd_status_output
 
 # timeout value in seconds for any command run

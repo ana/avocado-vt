@@ -3,7 +3,7 @@ import os
 import logging
 
 from avocado.core import exceptions
-from avocado.utils import process
+from afutils import process
 
 from .. import virsh, virt_vm, libvirt_vm, data_dir
 from .. import utils_net, xml_utils

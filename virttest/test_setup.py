@@ -17,12 +17,12 @@ from abc import abstractmethod
 
 from aexpect import remote
 
-from avocado.utils import process
-from avocado.utils import archive
-from avocado.utils import wait
-from avocado.utils import genio
-from avocado.utils import path
-from avocado.utils import distro
+from afutils import process
+from afutils import archive
+from afutils import wait
+from afutils import genio
+from afutils import path
+from afutils import distro
 from avocado.core import exceptions
 
 from virttest import data_dir

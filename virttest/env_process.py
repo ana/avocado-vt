@@ -17,13 +17,13 @@ except ImportError:
 import aexpect
 from aexpect import remote
 
-from avocado.utils import process as a_process
-from avocado.utils import crypto
-from avocado.utils import path
-from avocado.utils import distro
-from avocado.utils import cpu as cpu_utils
+from afutils import process as a_process
+from afutils import crypto
+from afutils import path
+from afutils import distro
+from afutils import cpu as cpu_utils
 from avocado.core import exceptions
-from avocado.utils import archive
+from afutils import archive
 
 import six
 from six.moves import xrange
